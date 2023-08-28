@@ -2,11 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doc11</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Gradiant Color Generator</title>
 </head>
 <body>
-    
+    <div class="container">
+        <header>
+            <h1>Gradiant Color Generator</h1>
+        </header>
+        <main>
+            <form>
+                <h2>select colors</h2>
+                <div class="colors">
+                    <div>
+                        <span>
+                            <label for="color1">Color1</label> <br>
+                            <input type="color" name="color1" id="color1">
+                            <h3 id="clr1">sd</h3>
+                        </span>
+                        <span>
+                            <label for="color2">Color2</label> <br>
+                            <input type="color" name="color2" id="color2">
+                            <h3 id="clr2">ds</h3>
+                        </span>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button type="button">Generate</button>
+                </div>
+            </form>
+        </main>
+        <footer>
+            <h1 id="res">Copyright</h1>
+        </footer>
+    </div>
+<script src="script.js"></script>
 </body>
 </html>

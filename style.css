@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(to right, #eb0808 10%, #0066ff 100%);
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+header{
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+}
+
+form{
+    height: fit-content;
+    text-align: center;
+}
+.colors{
+    display: flex;
+    justify-content: center;
+}
+.colors div{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+button{
+    height: 3rem;
+    width:6rem;
+    background: rgba(255, 255, 255, 0.329);
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: opacity .15s ease-in;
+}
+button:hover,button:focus {
+  opacity: .5;
+  transition: opacity .15s ease-in;
+}
+
+footer{
+    height: 2rem;
+    text-align: center;
+}
